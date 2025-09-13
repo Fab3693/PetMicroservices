@@ -8,4 +8,9 @@ spring:
       port: ${REDIS_PORT}
 
 service-c:
-  uri: ${SERVICE_C_URL}
+  serviceCUrl: ${SERVICE_C_URL}
+  saveUrl: /api/save
+
+app:
+  message:
+    important-type: important

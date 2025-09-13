@@ -1,11 +1,9 @@
-package mentorship.roadmap.microservices.service_a.kafka;
+package mentorship.roadmap.microservices.service_a.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import mentorship.roadmap.microservices.service_a.repository.mongo.MongoService;
 import mentorship.roadmap.microservices.service_a.dto.MessageDto;
-import mentorship.roadmap.microservices.service_a.rest.RestService;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 

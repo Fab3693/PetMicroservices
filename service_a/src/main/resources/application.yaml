@@ -16,3 +16,4 @@ spring:
 
 service-b:
   uri: ${SERVICE_B_URL}
+  processUrl: /api/process

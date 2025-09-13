@@ -1,4 +1,4 @@
-package mentorship.roadmap.microservices.service_a.repository.mongo;
+package mentorship.roadmap.microservices.service_a.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

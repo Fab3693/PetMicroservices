@@ -13,9 +13,14 @@ import java.time.Instant;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+
 public class MessageDto {
-    @NotNull private Long id;
-    @NotBlank private String type;
-    @NotBlank private String content;
-    @NotNull private Instant createdAt;
+    @NotNull
+    private Long id;
+    @NotBlank
+    private String type;
+    @NotBlank
+    private String content;
+    @NotNull
+    private Instant createdAt;
 }

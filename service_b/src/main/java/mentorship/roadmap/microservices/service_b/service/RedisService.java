@@ -1,4 +1,4 @@
-package mentorship.roadmap.microservices.service_b.redis;
+package mentorship.roadmap.microservices.service_b.service;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

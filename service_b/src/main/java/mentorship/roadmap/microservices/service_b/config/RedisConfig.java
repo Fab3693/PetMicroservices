@@ -1,4 +1,4 @@
-package mentorship.roadmap.microservices.service_b.redis;
+package mentorship.roadmap.microservices.service_b.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
